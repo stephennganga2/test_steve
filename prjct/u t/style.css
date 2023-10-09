@@ -1,0 +1,80 @@
+/* Apply a reset to remove default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the form container */
+  .form-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  /* Style the form headings */
+  .form-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style the form inputs */
+  .form-input {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* Style the form select */
+  .form-select {
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%235a5a5a"><path d="M17.3 10.3l-5.3 5.3-5.3-5.3-1.4 1.4 6.7 6.7 6.7-6.7z"/></svg>');
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* Style the form radio buttons */
+  .form-radio {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Style the form submit button */
+  .form-submit {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* Style the form error messages */
+  .form-error {
+    color: #f00;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
