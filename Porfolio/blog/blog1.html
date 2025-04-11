@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Joel Mukwekwe | Blog & Experience</title>
+  <style>
+    .blog-container {
+      display: flex;
+      background: linear-gradient(to bottom, #0a121e, #1a2d44, rgba(36, 59, 85, 0.85));
+      color: white;
+      position: relative;
+    }
+    .blog-image-aside {
+      min-width: 200px;
+      background: url('images/5.webp') no-repeat center/cover;
+      border-right: 2px solid rgba(255,255,255,0.1);
+    }
+    .blog-section {
+      flex-grow: 1;
+      padding: 60px 40px;
+      animation: fadeInUp 1s ease;
+    }
+    .blog-post {
+      margin-bottom: 40px;
+      border-left: 4px solid #3498db;
+      padding-left: 20px;
+      transition: transform 0.3s;
+    }
+    .blog-post:hover {
+      transform: scale(1.03);
+    }
+    .timeline {
+      margin: 60px 0;
+      padding: 0 20px;
+      border-left: 3px solid #2ecc71;
+    }
+    .timeline-item {
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+    .timeline-item h4 {
+      color: #2ecc71;
+    }
+    .resume-download {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .resume-download a {
+      padding: 12px 20px;
+      background: #e67e22;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .resume-download a:hover {
+      background: #d35400;
+    }
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="blog-container">
+    <div class="blog-image-aside"></div>
+    <section class="blog-section" id="blog">
+      <h2>Latest Blog Posts</h2>
+      <div class="blog-post">
+        <h3>From Hospitality to Code: My Journey</h3>
+        <p>I started in kitchens, front offices, and guest services—then I discovered the power of code. Read how I bridged the gap between service and software.</p>
+      </div>
+      <div class="blog-post">
+        <h3>Building Smart Bus – My First Booking App</h3>
+        <p>Smart Bus was born out of a challenge to digitize transport bookings from Nakuru to Mombasa. It was built using PHP and MySQL.</p>
+      </div>
+      <div class="blog-post">
+        <h3>The Power of Full-Stack Development</h3>
+        <p>From hotel apps to farmer marketplaces, full-stack development has opened doors I never imagined possible.</p>
+      </div>
+      <div class="blog-post">
+        <h3>Leading with Purpose: The Herd Men Kenya</h3>
+        <p>As a leader in a men’s wellness NGO, I’ve learned how tech and community work hand-in-hand to uplift others.</p>
+      </div>
+    </section>
+  </div>
+
+  <section class="timeline" id="timeline">
+    <h2>Experience Timeline</h2>
+    <div class="timeline-item">
+      <h4>2025 — Portfolio & FarmDirect App</h4>
+      <p>Currently building an interactive portfolio and an e-commerce app for farmers using Next.js, PHP, and JS.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>2023–2024 — Smart Bus, NBAa & Optisched</h4>
+      <p>Developed multiple systems including transport, beauty product e-commerce, and clinic booking platforms.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>2023 — Lake View Hotel & Dominion</h4>
+      <p>Trained in hotel departments, managed guest experiences, and worked in pastry and kitchen operations.</p>
+    </div>
+  </section>
+
+  <div class="resume-download">
+    <a href="../index.php">🏡 Home</a>
+  </div>
+  <div class="resume-download">
+    <a href="resume/JOEL MUKWEKWE.pdf" download>📄 Download My Resume</a>
+  </div>
+</body>
+</html>

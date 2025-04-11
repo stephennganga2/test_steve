@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Explaining Next.js with TypeScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+
+    .hero {
+      background-color: #2d3e50;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .hero a {
+      color: #00d1b2;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #2c7be5;
+    }
+
+    code {
+      background-color: #ececec;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    article p {
+      margin-bottom: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Explaining Next.js with TypeScript</h1>
+    <p>Build scalable React apps with the best of both worlds</p>
+    <a href="../index.php">← Back to Portfolio</a>
+  </header>
+
+  <section class="section blog-content">
+    <article>
+      <h2>What is Next.js?</h2>
+      <p>Next.js is a React framework that enables server-side rendering, static site generation, routing, and full-stack capabilities with minimal configuration. It simplifies development while improving performance and SEO.</p>
+
+      <h2>Why Use TypeScript?</h2>
+      <p>TypeScript adds static typing to JavaScript, making it easier to catch errors early, improve code navigation, and refactor confidently. It’s perfect for scaling large applications and working in teams.</p>
+
+      <h2>Combining Next.js with TypeScript</h2>
+      <p>Next.js has built-in support for TypeScript. When you add a <code>tsconfig.json</code> file, it automatically sets up the necessary configuration. You can write components as <code>.tsx</code> files and use interfaces or types to ensure props and data are well-defined.</p>
+
+      <h2>Example: TypeScript Component in Next.js</h2>
+      <p>Here’s a simple example of a functional component:</p>
+      <pre><code>{`type Props = { name: string }
+
+const Welcome: React.FC<Props> = ({ name }) => {
+  return <h1>Hello, {name}!</h1>
+}`}</code></pre>
+      <p>This ensures that <code>name</code> must be a string, providing IntelliSense and error checking.</p>
+
+      <h2>Benefits</h2>
+      <p>Combining Next.js with TypeScript enhances developer experience, reduces bugs, improves team collaboration, and prepares your app for scale. It’s a recommended stack for modern full-stack development.</p>
+    </article>
+  </section>
+</body>
+</html>
